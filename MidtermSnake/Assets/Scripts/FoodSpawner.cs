@@ -7,12 +7,7 @@ public class FoodSpawner : MonoBehaviour
     public GameObject foodPrefab; // Reference to the food prefab
     public Vector2 spawnAreaSize = new Vector2(10f, 5f); // Size of the area where food can spawn
 
-    void Start()
-    {
-        SpawnFood();
-    }
-
-    void SpawnFood()
+    public void RespawnFood()
     {
         // Calculate random spawn position within spawn area
         float spawnX = Random.Range(-spawnAreaSize.x / 2f, spawnAreaSize.x / 2f);
