@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class FoodSpawner : MonoBehaviour
 {
     public GameObject foodPrefab; // Reference to the food prefab
